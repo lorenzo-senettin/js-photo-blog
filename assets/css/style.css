@@ -1,11 +1,11 @@
-header{
+header {
   height: 15vh;
 }
-body{
+body {
   height: calc(100vh - 15vh);
 }
 
-#header-bg{
+#header-bg {
   background-image: url('../img/wall.png');
   background-size: cover;
   background-position: center;          
@@ -19,8 +19,16 @@ body{
   background-repeat: no-repeat;           
 }
 
-header{
-  h1 {
+header h1 {
   font-size: 5rem;
-  }
+}
+
+.card .card-img-top {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pin-img {
+  height: 30px;
 }
