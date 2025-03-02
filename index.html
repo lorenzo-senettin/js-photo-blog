@@ -15,6 +15,15 @@
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous" />
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap"
+      rel="stylesheet">
+
   </head>
 
   <body>
@@ -26,73 +35,22 @@
     </header>
     <main>
       <div id="main-bg">
-        <div class="container py-5">
-          <div class="row g-4 justify-content-center">
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card card-white">
-                <img src="./assets/img/pin.svg" alt="Pin" class="pin-img">
-                <img src="https://picsum.photos/600" class="card-img-top"
-                  alt="Immagine polaroid">
-                <div class="card-body">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Ipsam, ex.</p>
-                </div>
+        <div class="container d-flex justify-content-center mx-auto">
+          <div class="bg-white position-relative mt-5 white-card">
+            <div id="card-top" class="position-relative">
+              <div id="pin-img"
+                class="position-absolute top-0 start-50 translate-middle-x">
+                <img src="./assets/img/pin.svg" alt="Pin">
+              </div>
+              <div id="polaroid-img"
+                class="position-absolute top-0 start-50 translate-middle-x">
+                <img src="https://picsum.photos/600" alt="Polaroid image">
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card card-white">
-                <img src="./assets/img/pin.svg" alt="Pin" class="pin-img">
-                <img src="https://picsum.photos/600" class="card-img-top"
-                  alt="Immagine polaroid">
-                <div class="card-body">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Ipsam, ex.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card card-white">
-                <img src="./assets/img/pin.svg" alt="Pin" class="pin-img">
-                <img src="https://picsum.photos/600" class="card-img-top"
-                  alt="Immagine polaroid">
-                <div class="card-body">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Ipsam, ex.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card card-white">
-                <img src="./assets/img/pin.svg" alt="Pin" class="pin-img">
-                <img src="https://picsum.photos/600" class="card-img-top"
-                  alt="Immagine polaroid">
-                <div class="card-body">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Ipsam, ex.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card card-white">
-                <img src="./assets/img/pin.svg" alt="Pin" class="pin-img">
-                <img src="https://picsum.photos/600" class="card-img-top"
-                  alt="Immagine polaroid">
-                <div class="card-body">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Ipsam, ex.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card card-white">
-                <img src="./assets/img/pin.svg" alt="Pin" class="pin-img">
-                <img src="https://picsum.photos/600" class="card-img-top"
-                  alt="Immagine polaroid">
-                <div class="card-body">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Ipsam, ex.</p>
-                </div>
-              </div>
+            <div id="card-bottom" class="card-body">
+              <p id="date">Lorem ipsum dolor sit amet.</p>
+              <p id="place">Lorem ipsum dolor sit
+                amet.</p>
             </div>
           </div>
         </div>

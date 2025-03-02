@@ -5,6 +5,23 @@ body {
   height: calc(100vh - 15vh);
 }
 
+h1, #place {
+  font-family: 'Edu TAS Beginner', sans-serif;
+  font-weight: 700;
+}
+
+#date{
+  font-size: 2rem;
+}
+
+#place{
+  font-size: 3rem;
+}
+
+#date {
+  font-family: 'Sometype Mono', monospace;
+}
+
 #header-bg {
   background-image: url('../img/wall.png');
   background-size: cover;
@@ -16,19 +33,33 @@ body {
   background-image: url('../img/cork.png');
   background-size: cover;
   background-position: center;          
-  background-repeat: no-repeat;           
+  background-repeat: no-repeat;   
+  min-height: 100vh;        
 }
 
 header h1 {
   font-size: 5rem;
 }
 
-.card .card-img-top {
-  width: 100%;
-  height: auto;
-  display: block;
+.white-card{
+  width: 45rem; 
+  height: 55rem;
 }
 
-.pin-img {
-  height: 30px;
+#card-top{
+  height: 700px;
+}
+
+#pin-img{
+  margin-top: 20px; 
+  z-index: 1;
+}
+
+#polaroid-img{
+  margin-top: 40px; 
+  z-index: 0;
+}
+
+#card-bottom{
+  padding-left: 50px;
 }
