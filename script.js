@@ -53,3 +53,9 @@ cardContainerEl.addEventListener('click', function (e) {
     document.getElementById('overlay').style.display = 'flex';
   }
 });
+
+
+// close button
+document.getElementById('btn-close').addEventListener('click', function () {
+  document.getElementById('overlay').style.display = 'none';
+});
