@@ -1,65 +1,69 @@
 header {
   height: 15vh;
-}
-body {
-  height: calc(100vh - 15vh);
-}
-
-h1, #place {
-  font-family: 'Edu TAS Beginner', sans-serif;
-  font-weight: 700;
-}
-
-#date{
-  font-size: 2rem;
-}
-
-#place{
-  font-size: 3rem;
-}
-
-#date {
-  font-family: 'Sometype Mono', monospace;
-}
-
-#header-bg {
   background-image: url('../img/wall.png');
   background-size: cover;
   background-position: center;          
   background-repeat: no-repeat;   
 }
 
-#main-bg {
+body {
+  height: calc(100vh - 15vh);
   background-image: url('../img/cork.png');
   background-size: cover;
   background-position: center;          
-  background-repeat: no-repeat;   
-  min-height: 100vh;        
+  background-repeat: repeat;   
+  min-height: 100vh; 
 }
 
-header h1 {
+h1 {
+  font-family: 'Edu TAS Beginner', sans-serif;
+  font-weight: 700;
   font-size: 5rem;
 }
 
-.white-card{
-  width: 45rem; 
-  height: 55rem;
+.container{
+  margin-top: 1rem;
 }
 
-#card-top{
-  height: 700px;
+
+.card{
+  height: 360px;
+  width: 300px;
+  padding: 0.5rem;
+  margin: 1rem;
 }
 
-#pin-img{
-  margin-top: 20px; 
-  z-index: 1;
+.pin{
+  height: 30px;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
 }
 
-#polaroid-img{
-  margin-top: 40px; 
-  z-index: 0;
+img {
+  width: 100%;
+  padding-top: 0.5rem;
+  display: block;
+  margin: 0 auto;
 }
 
-#card-bottom{
-  padding-left: 50px;
+.card-top{
+  position: relative;
+  padding-top: 1rem;
+}
+
+.date {
+    font-family: "Sometype Mono", monospace;
+}
+
+.place {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.down-card {
+  margin-left: 1rem;
+  text-align: left;
+  padding-top: 1rem;
 }
