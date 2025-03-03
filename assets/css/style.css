@@ -109,3 +109,7 @@ h1 {
 }
 
 
+/* image pointer cursor */
+.image:hover{
+cursor: pointer;
+}
