@@ -43,3 +43,13 @@ function displayCards(data) {
     cardContainerEl.innerHTML += markup(url, date, place);
   });
 }
+
+// get correct image and show overlay
+cardContainerEl.addEventListener('click', function (e) {
+  if (e.target.classList.contains('image')) {
+    const clickedImg = e.target.src;
+    const overlayImg = document.querySelector('#overlay img');
+    overlayImg.src = clickedImg;
+    document.getElementById('overlay').style.display = 'flex';
+  }
+});
