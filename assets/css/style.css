@@ -1,3 +1,4 @@
+/* header viewport and bg */
 header {
   height: 15vh;
   background-image: url('../img/wall.png');
@@ -6,6 +7,7 @@ header {
   background-repeat: no-repeat;   
 }
 
+/* body viewport and bg */
 body {
   height: calc(100vh - 15vh);
   background-image: url('../img/cork.png');
@@ -15,6 +17,7 @@ body {
   min-height: 100vh; 
 }
 
+/* title style */
 h1 {
   font-family: 'Edu TAS Beginner', sans-serif;
   font-weight: 700;
@@ -25,7 +28,7 @@ h1 {
   margin-top: 1rem;
 }
 
-
+/* card dimension */
 .card{
   height: 360px;
   width: 300px;
@@ -33,6 +36,7 @@ h1 {
   margin: 1rem;
 }
 
+/* pin dimension and position */
 .pin{
   height: 30px;
   position: absolute;
@@ -40,30 +44,66 @@ h1 {
   left: 50%;
 }
 
-img {
+/* card img */
+.card img {
   width: 100%;
   padding-top: 0.5rem;
   display: block;
   margin: 0 auto;
 }
 
+/* top card */
 .card-top{
   position: relative;
   padding-top: 1rem;
 }
 
+/* date text style */
 .date {
     font-family: "Sometype Mono", monospace;
 }
 
+/* place text style */
 .place {
     font-weight: 700;
     font-size: 1.5rem;
     text-transform: uppercase;
 }
 
+/* down card margin and text */
 .down-card {
   margin-left: 1rem;
   text-align: left;
   padding-top: 1rem;
+}
+
+/* overlay bg, viewport 100 and style */
+#overlay{   
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vh;
+  height: 100vh;
+  z-index: 9999;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+/* img overlay */
+#overlay img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* btn position */
+#btn-close {
+  position: absolute;
+  top: 10px;
+  left: 50%;  
+  padding: 0.5rem 1rem;
 }
