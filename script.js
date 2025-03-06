@@ -7,9 +7,7 @@ const booleanEndPoint = "https://lanciweb.github.io/demo/api/pictures/";
 // call api
 fetch(booleanEndPoint)
   .then(response => response.json())
-  .then(data => {
-    displayCards(data);
-  })
+  .then(data => { displayCards(data); })
   .catch(err => console.error(err));
 
 
